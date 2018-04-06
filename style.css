@@ -1,0 +1,58 @@
+
+/* Base Styles */
+
+body {
+	background:url(john-jennings.jpg) no-repeat top left;
+	background-size:cover;
+}
+
+.btn {
+	color: #c3754a;
+
+}
+
+.btn-outline-dark {
+	border-color:#c3754a !important;
+}
+.btn-outline-dark:hover {
+	background-color: #d70852;
+	border-color: #d70852 !important;
+}
+
+h1, p {
+	color: #c3754a;
+}
+
+.display-4 {
+	font-size: 2rem;
+}
+
+.jumbotron {
+	background-color:transparent;	
+}
+
+
+
+/* media queries */
+
+@media screen and (min-width:500px) {
+
+ body {
+	background:url(john-jennings.jpg) no-repeat top left;
+	background-size:cover;
+	}
+
+	.display-4 {
+	font-size: 3.5rem;
+    }
+
+}
+
+
+@media screen and (min-width:768px) {
+
+ .display-4 {
+	margin-top:3.5rem;
+   }
+
+}
